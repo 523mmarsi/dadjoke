@@ -1,0 +1,25 @@
+button
+{
+  background-color: darkgreen;
+  color: #fff;
+  border: 0px;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+button:hover
+{
+  background-color: darkgreen;
+  transition: 2s;
+  cursor : pointer;
+}
+body {
+  background-image: url("https://sportshub.cbsistatic.com/i/r/2021/06/07/b3de0b99-c690-458b-b14c-cf1aa499bc45/thumbnail/1200x675/76e89df04316ae7204bc652b70b398f4/golf-ball-generic.jpg");
+  background-size: cover;
+}
+.containter-fluid {
+  color: darkgreen;
+  font-size: 25px;
+}

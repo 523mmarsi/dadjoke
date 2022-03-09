@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Dad Joke</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<center>
+	<div class="containter-fluid">
+  <h2>
+    Do you want to hear a joke?
+  </h2>
+  <p id="edit">Why do fathers take an extra pair of socks when they go golfing?</p>
+  <button type="button" onclick= "punchline()">Why?</button>
+	<br>
+	<button id="reset" onclick="reset()">Reset</button>
+</div>
+<script>
+	function reset() {
+	document.getElementById("edit").innerHTML = "Why do fathers take an extra pair of socks when they go golfing?";
+}
+	function punchline() {
+	document.getElementById("edit").innerHTML = "Just in case they get a hole in one";
+}
+
+</script>
+</body>
+</html>
